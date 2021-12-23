@@ -6,8 +6,10 @@ POST http://localhost:8000/api/articles/learn-react/add-comment HTTP/1.1
 Content-Type: application/json
 
 {
-  "username": "me 2",
-  "text": "Noice"
+  "username": "Another User",
+  "text": "Very informative. Thank you for the post!"
 }
 
 ###
+
+GET http://localhost:8000/api/articles/learn-node HTTP/1.1
